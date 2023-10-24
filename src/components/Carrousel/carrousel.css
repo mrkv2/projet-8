@@ -1,0 +1,30 @@
+.carrousel {
+    width: 100%;
+    position: relative;
+}
+
+.fleche-gauche {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+}
+
+.fleche-droite {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrousel span {
+    position: absolute;
+    color: white;
+    bottom: 10px;
+    left: 50%;
+
+}

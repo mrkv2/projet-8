@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    margin-top: 45px;
+ 
+}
+logo img {
+    width: 100%;
+}
+nav ul {
+    list-style-type: none;
+    padding-right: 40px;
+    display: flex;
+    gap: 20px;
+}
+nav li {
+    display:inline;
+}
+nav a {
+    text-decoration: none;
+    color: red;
+    transition: color 0.3s ease;
+    
+}
