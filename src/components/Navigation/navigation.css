@@ -6,8 +6,9 @@ header {
     margin-top: 45px;
  
 }
-logo img {
-    width: 100%;
+.logo img {
+    height: 60px;
+    width: auto;
 }
 nav ul {
     list-style-type: none;
@@ -20,7 +21,36 @@ nav li {
 }
 nav a {
     text-decoration: none;
-    color: red;
+    color: #ff6060;
     transition: color 0.3s ease;
     
 }
+.lien-actif {
+    text-decoration: underline;
+    
+    color: #ff6060; 
+}
+@media (max-width: 768px) {  /* a modif sibesoin */
+    
+    .logo img {
+        height: 35px;
+        
+    }
+    header {
+             
+        justify-content: space-between;
+        align-items: center;
+        gap: 25px;
+        margin-top: 20px;
+        width: 100%;
+        padding: 0px 0px 20px 0px;
+     
+    }
+    nav ul {
+        
+        padding-right: 20px;
+        
+    }
+    }
+
+   

@@ -2,11 +2,11 @@
 
 .collaps {
    
-    border: 1px solid #ccc;
+   
     margin-bottom: 10px;   
     border-radius: 5px;
-    width: 1023px;
-    
+    height: fit-content;
+    width: 100%;
 }
 
 .collaps__toggle {
@@ -26,8 +26,9 @@
 
 .collaps__content {
     padding: 10px;
-    border-top: 1px solid #ccc;
+    border: 1px solid #ccc;
     font-family: 'Montserrat';
+    width: 100%;
 }
 
 .arrow-icon {
@@ -39,4 +40,15 @@
 
 .arrow-icon.open {
     transform: rotate(180deg);
+}
+.collaps-content ul li {
+    color: #FF6060; 
+}
+.collaps-content ul {
+    margin: 0;
+    padding-left: 20px; 
+}
+.collaps-content ul li {
+    margin: 0;
+    padding: 0;
 }

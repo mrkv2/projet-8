@@ -1,0 +1,23 @@
+.stars {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.star.active {
+    color: #ff6060;
+}
+
+.star.inactive {
+    color: grey;
+}
+.stars .star{
+    font-size: 24px;
+}
+@media (max-width: 768px) {  /* a modif sibesoin */
+    
+    .stars .star{
+        font-size: 18px;
+    }
+     
+    }

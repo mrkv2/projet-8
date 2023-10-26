@@ -7,6 +7,7 @@ import './home.css';
 import Carrousel from '../../components/Carrousel/Carrousel';
 
 
+
 export default function Home() {
     const [selectedAppart, setSelectedAppart] = useState(null);
 

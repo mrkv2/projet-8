@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
 #root {
   max-width: 1400px;
   margin: auto;

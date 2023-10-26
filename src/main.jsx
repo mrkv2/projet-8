@@ -9,6 +9,11 @@ import Error404 from './pages/Error404/Error404.jsx';
 
 import './index.css'
 import Logement from './pages/Logement/Logement.jsx';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faStar);
+
 
 const router = createBrowserRouter([
   {
