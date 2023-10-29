@@ -11,6 +11,7 @@
    left: 0;
    width: 100%;
    padding-bottom: 15px;
+  
 
 }
 .logo {
@@ -23,12 +24,24 @@
 }
 .container p {
     color: white;
-    font-size: 1vw;
+    font-size: 1rem;
     font-family: 'Monteserrat';
     margin: 0;
     
 }
-@media (max-width: 768px) {  /* a modif si besoin */
-
+.foot-resereved{
+    display: flex;
     
+    flex-direction: row;
+
+}
+@media (max-width: 768px) {  /* a modif si besoin */
+    logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        
      
+}  
+}

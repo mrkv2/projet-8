@@ -5,6 +5,13 @@
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #ece2e2;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 50px 2vw;
     
 }
 /* gestion du titre dans l'image */

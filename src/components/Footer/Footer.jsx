@@ -8,7 +8,10 @@ export default function Footer() {
        <footer className='container'>
         <div className="logo">
             <img src={Logo} alt="logo" />
-            <p className='foot-resereved'>&copy; 2020 Kasa. All rights reserved </p>
+            <div className='foot-reserveved'>
+            <p className=''>&copy; 2020 Kasa.</p>
+            <p className=''>All rights reserved </p>
+            </div>
             </div>
             
            
