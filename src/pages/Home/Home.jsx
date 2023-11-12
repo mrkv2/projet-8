@@ -5,7 +5,7 @@ import Apparts from '../../data/logements.json'
 import { useState } from 'react';
 import './home.scss';
 import Carrousel from '../../components/Carrousel/Carrousel';
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 
 export default function Home() {
