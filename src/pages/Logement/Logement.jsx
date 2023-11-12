@@ -1,8 +1,7 @@
-import { useParams } from 'react-router';
-import './logement.css';
+import { useEffect } from 'react';
+import { useParams, useNavigate } from 'react-router-dom';
+import './logement.scss';
 import Apparts from '../../data/logements.json';
-import Navigation from '../../components/Navigation/Navigation';
-import Footer from '../../components/Footer/Footer';
 import Carrousel from '../../components/Carrousel/Carrousel';
 import Collaps from '../../components/Collaps/Collaps';
 import RatingStars from '../../components/rating/rating'
@@ -10,13 +9,18 @@ import RatingStars from '../../components/rating/rating'
 
 export default function Logement() {
     const { id } = useParams();
+    const navigate = useNavigate();
     const appart = Apparts.find(a => a.id === id);
 
-    if (!appart) {
-        return <h2>Logement non trouvé {id} contacter l'administrateur du site web pour plus d'information</h2>;
-        
-    }
+    useEffect(() => {
+        if (!appart) {
+            navigate('/404', { replace: true });
+        }
+    }, [id, appart, navigate]);
 
+    if (!appart) {
+        return null; 
+    }
     return (
         <div className='logement'>
             

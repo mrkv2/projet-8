@@ -1,9 +1,8 @@
-import { NavLink } from "react-router-dom";
-
-import Logo from '../../assets/images/Logo.svg'
-
-import './navigation.css'
 import { Link } from 'react-router-dom';
+import './navigation.scss';
+import { NavLink } from "react-router-dom";
+import Logo from '../../assets/images/Logo.svg';
+
 
 
 
@@ -12,16 +11,16 @@ export default function Navigation() {
        <header>
         <div className="logo">
         <Link to="/">
-    <img src={Logo} alt="logo" className="logo"/>
+    <img src={Logo} alt="logo" className="logo-img"/>
 </Link>
             </div>
-        <nav>
+        <nav >
             <ul>
-                <li>
-                <NavLink to="/" exact activeClassName="lien-actif" >Accueil</NavLink>
+            <li>
+                    <NavLink to="/" end activeClassName="lien-actif">Accueil</NavLink>
                 </li>
                 <li>
-                <NavLink to="/about" activeClassName="lien-actif" >A propos</NavLink>
+                    <NavLink to="/about" end activeClassName="lien-actif">A propos</NavLink>
                 </li>
             </ul>
         </nav>

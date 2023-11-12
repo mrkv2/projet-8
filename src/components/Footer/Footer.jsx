@@ -1,5 +1,5 @@
 import Logo from  '../../assets/images/LOGOfooter.svg'
-import './footer.css'
+import './footer.scss'
 
 
 

@@ -1,7 +1,7 @@
 
 import photo from '../../assets/images/propos.svg';
 import Collaps from '../../components/Collaps/Collaps';
-import './About.css';
+import './About.scss';
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
 

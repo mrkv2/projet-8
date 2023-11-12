@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import arrow from '../../assets/images/fleche.svg'
-import './Collaps.css';
+import './Collaps.scss';
 
 function Collaps({ title, content = null, equipments = null }) {
     const [isOpen, setIsOpen] = useState(false);

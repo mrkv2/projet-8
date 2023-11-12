@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
-import './thumb.css'
+import './thumb.scss'
 
 export default function Thumb({ appart, onClick }) {
     return (

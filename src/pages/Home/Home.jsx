@@ -3,7 +3,7 @@ import photo from '../../assets/images/Mask_Group.png'
 import Thumb from '../../components/Thumb/Thumb';
 import Apparts from '../../data/logements.json'
 import { useState } from 'react';
-import './home.css';
+import './home.scss';
 import Carrousel from '../../components/Carrousel/Carrousel';
 
 

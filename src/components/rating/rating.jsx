@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './rating.css';
+import './rating.scss';
 
 function RatingStars({ rating }) {
     const fullStars = Math.floor(rating);

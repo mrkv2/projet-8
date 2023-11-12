@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import photo from '../../assets/images/404.svg'
-import './Error404.css';
+import './Error404.scss';
 
  
 
